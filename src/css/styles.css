@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   padding: 50px;
 }
+
+.col-text{
+  -webkit-column-count: 3;
+}
+
 /*
 canvas {
     display:block;
@@ -10,3 +23,20 @@ canvas {
     position: fixed;
     z-index: -1;
 }*/
+img {
+  max-width: 100%;
+  transition: opacity 1s ease-in-out;
+}
+img:hover {
+  opacity: .5;
+}
+.row.expandImg {
+   margin-right: 0;
+   margin-left: 0;
+
+}
+.row.expandImg > [class^="col"],
+.row.expandImg > [class*="col"] {
+   padding-right: 0;
+   padding-left: 0;
+}

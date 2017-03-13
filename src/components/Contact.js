@@ -11,10 +11,13 @@ class ContactForm extends Component {
             <input className="form-control" placeholder="Insert your Name" type="text" />
           </div>
           <div className="form-group">
-            <input className="form-control" placeholder="Insert your Name" type="text" />
+            <input className="form-control" placeholder="Insert your Email" type="email" />
           </div>
           <div className="form-group">
-            <input className="form-control" placeholder="Insert your Name" type="text" />
+            <input className="form-control" placeholder="Subject" type="text" />
+          </div>
+          <div className="form-group">
+            <textarea className="form-control" rows="10">Comments</textarea>
           </div>
         </form>
       </div>

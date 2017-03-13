@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
+import ContactForm from './components/Contact';
 import './css/styles.css';
 import {Scrollspy} from 'react-scrollspy'
 import { Navbar, Nav } from 'react-bootstrap';
@@ -34,7 +35,7 @@ class App extends Component {
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#projects">Projects</a></li>
-              <li><a href="Contact">Contact Me</a></li>
+              <li><a href="#contact">Contact Me</a></li>
             </Scrollspy>
           </Nav>
         </Navbar>
@@ -42,6 +43,7 @@ class App extends Component {
           <section id="home" style={style.homeSection} className="text-center"><Home /></section>
           <section id="about"><About /></section>
           <section  id="projects" style={style.projectSection}><Projects /></section>
+          <section id="contact"><ContactForm /></section>
         </div>
       </div>
     );

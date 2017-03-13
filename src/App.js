@@ -41,7 +41,7 @@ class App extends Component {
         <div>
           <section id="home" style={style.homeSection} className="text-center"><Home /></section>
           <section id="about"><About /></section>
-          <div  id="projects" style={style.projectSection}><Projects /></div>
+          <section  id="projects" style={style.projectSection}><Projects /></section>
         </div>
       </div>
     );

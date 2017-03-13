@@ -4,7 +4,7 @@ class ContactForm extends Component {
   render() {
     return (
       <div>
-        Contance Me
+        Contact Me
         <div>form goes here</div>
       </div>
     )

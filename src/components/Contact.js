@@ -5,7 +5,7 @@ class ContactForm extends Component {
     return (
       <div>
         <PageHeader>Contact Me</PageHeader>
-        <div>form goes here</div>
+        <form>form goes here</form>
       </div>
     )
   }

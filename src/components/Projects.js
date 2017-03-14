@@ -10,10 +10,9 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <PageHeader>Projects I have worked on</PageHeader>
+        <PageHeader className="text-center">Projects I have worked on</PageHeader>
         <div>
           <Row className="expandImg">
-
             <Col className="col-custom" xs={6} sm={4}>
               <Image  src={cube} alt="prro"/>
               <h3>Thumbnail label</h3>

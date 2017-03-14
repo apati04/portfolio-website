@@ -19,6 +19,9 @@ class ContactForm extends Component {
           <div className="form-group">
             <textarea className="form-control" rows="10">Comments</textarea>
           </div>
+          <div className="form-group">
+            <input className="btn btn-success btn-block" type="submit"/>
+          </div>
         </form>
       </div>
     )

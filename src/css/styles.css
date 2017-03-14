@@ -4,15 +4,12 @@ body{
 }
 
 section {
-  justify-content: center;
   width: 100vw;
   height: 100vh;
   padding: 50px;
 }
 
-.col-text{
-  -webkit-column-count: 3;
-}
+
 
 /*
 canvas {
@@ -37,4 +34,7 @@ img:hover {
 .row.expandImg > [class*="col"] {
    padding-right: 0;
    padding-left: 0;
+}
+.col-text{
+  -webkit-column-count: 3;
 }

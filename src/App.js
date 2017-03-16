@@ -7,10 +7,10 @@ import ContactForm from './components/Contact';
 import './css/styles.css';
 import {Scrollspy} from 'react-scrollspy'
 import { Navbar, Nav } from 'react-bootstrap';
-
+import bg from './images/bp_background.jpg';
 const style={
   homeSection: {
-    background: "#1A237E", backgroundSize: '100% 100%', color: 'white'
+    background: `url(${bg})`, backgroundSize: '100% 100%', color: 'white'
   },
   projectSection: {
     background: "#03a9f4", backgroundSize: '100% 100%', color: 'white',
